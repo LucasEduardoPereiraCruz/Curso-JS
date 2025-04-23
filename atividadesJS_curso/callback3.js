@@ -23,6 +23,7 @@ const nomeMaterial = texto => texto[0]
 const informacoes = material.map(nomeMaterial)
 console.log(material)
 
+//Essa parte está igual ao do prof do curso
 const getTotal = item => item.qtde * item.preco
 const totais = carrinho.map(getTotal)
 console.log(totais)
